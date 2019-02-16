@@ -1,5 +1,29 @@
 # CoordinatorTabLayout
 
+※オリジナル版からForkし、Apiレベル28をターゲットとしてビルドすることで、以下の例外発生を回避
+
+```
+E/AndroidRuntime: FATAL EXCEPTION: main
+java.lang.NoSuchMethodError: android.support.design.widget.TabLayout.addOnTabSelectedListener
+at cn.hugeterry.coordinatortablayout.CoordinatorTabLayout.setupTabLayout(CoordinatorTabLayout.java:167)
+at cn.hugeterry.coordinatortablayout.CoordinatorTabLayout.setupWithViewPager(CoordinatorTabLayout.java:224)
+at europeonline.example.com.coordinatordemo.MainActivity.onCreate(MainActivity.java:50)
+at android.app.Activity.performCreate(Activity.java:5372)
+at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2270)
+at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2362)
+at android.app.ActivityThread.access$700(ActivityThread.java:168)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1329)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:176)
+at android.app.ActivityThread.main(ActivityThread.java:5493)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:525)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1225)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1041)
+at dalvik.system.NativeStart.main(Native Method)
+```
+
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/LICENSE.txt)
 [![Download](https://api.bintray.com/packages/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/images/download.svg) ](https://bintray.com/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/_latestVersion)
 
