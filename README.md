@@ -23,6 +23,8 @@ at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:12
 at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1041)
 at dalvik.system.NativeStart.main(Native Method)
 ```
+オリジナル版：
+https://github.com/hugeterry/CoordinatorTabLayout
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/LICENSE.txt)
 [![Download](https://api.bintray.com/packages/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/images/download.svg) ](https://bintray.com/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/_latestVersion)
